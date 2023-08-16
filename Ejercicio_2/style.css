@@ -1,0 +1,12 @@
+.container-fluid{
+    background-color: 	#479b02;
+    padding: 10px;
+    color: white;
+    
+}
+.primero{
+    background-color: #479b02;
+    color: white;
+    margin: 2px;
+    border: 7px solid grey;
+}
