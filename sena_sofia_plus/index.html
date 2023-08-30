@@ -89,44 +89,50 @@
 <div class="container">
   <div class="row">
     <div class="col-xl-7">
-      <form class="form" style="background-color: grey; border: 4px grey ; border-radius: 4px;">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input style="width: 600px; margin: 8px;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      
+      <div class="form-control" style="background-color:#585b54;">
+        <div class="col-md-12">
+          <label for="inputState" class="col-md-12 text-light form-label"> ¿Que te gustaria estudiar?</label>
+               
+                <div class="col-md-11 input-group mb-3">
+                  <select id="inputState" class="form-select">
+                    <option selected>Todos los tipos</option>
+                    <option selected>Carreras tecnicas</option> |
+                    <option selected>Cursos cortos</option>
+                    <option selected>Formacion virtual</option>
+                    <option selected>Formacion empresas</option>
+                  </select>
+                  <input type="text" class="form-control" placeholder="Ej: Cocina, Contabilidad" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                
+                <label for="exampleInputEmail1" class="text-light form-label">¿En donde le gustaria estudiar?</label>
+                <input type="text" class="form-control" placeholder="Ej: Cali, Cartagena" aria-label="Username" aria-describedby="basic-addon1">
+                <br>
+                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                 <label class="text-light form-check-label" for="exampleCheck1">Todos los programas</label>
+                 <div class="col-md-10">
+                 
+                 
+                 <label class="text-light form-check-label" for="exampleCheck1">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <button type="button" id="boton1" class=" btn btn-success float-end col-md-4" style="background-color: #39a900;">buscar</button>Solo programas con oferta de formacion disponible</label>
+                </div>
+
+
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input style="width: 600px; margin: 8px;" type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button style="position: relative; left: 520px; justify-content: 15px; margin: 10px;" type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
+      
     </div>
+    
     <div class="col-xl-5">
-      <div class=" flex-direction-column" style="width: 900px;">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-          <div class="card" style="height: 140px;">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-<br>
-        <div class="col-sm-6">
-          <div class="card" style="height: 140px;">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
+      <div class="card w-75  mb-5" style="height: 110px;">
+            
+        <p class="card-text">Registrese para incribirse a los programas de formacion</p>
+        <button type="button" class="btn btn-success" style="background-color: #39a900; margin-top: 29px;">Registrarse</button>
+      </div>
+      <div class="card w-75 mb-4" style="height: 110px;">
+        <p class="card-text">Ingrese para acceder al sistema si ya esta registrado.</p>
+        <button type="button" class="btn btn-success" style="background-color: #39a900; margin-top: 29px;">Ingresar</button>
       </div>
 
     </div>
@@ -134,6 +140,8 @@
 </div>
 <br>
     
+
+
 <div class="container">
   <div class="row">
     <div class="col-8">
@@ -144,7 +152,7 @@
           
     </div>
     <div class="col-3">
-      <select class="form-select" aria-label="Default select example">
+      <select class="form-select" aria-label="Default select example" style=" background-color: rgb(0, 170, 255); width: 415px;">
         
       </select>
       </div>
@@ -167,9 +175,58 @@
     </div>
   </div>
 </div>
+<br>
+<br>
 
 
-          
+
+<div class="container" style="background-color: #585b54; margin: 4px #585b54; width: 100; height: 50px; border-radius: 3px;">
+  <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col-4" >
+      <div class="d-grid gap-2 d-md-block">
+
+        <button type="button" style="background-color: #39a900; border: #39a900; border-radius: 2px; width: 300px; margin-top: 10px;">Button</button>
+       
+        
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+</div>
+
+
+<br>
+
+
+
+
+  
+<!-- Pie de Página -->
+<footer style="background-color: #D8D8D8">
+  <div class="container py-2">
+    <div class="row">
+      <div class="col-md-1" >
+        <img class="" src="img/tell.jpg"  style="width: 40%;">
+      </div>
+      <div class="col-md-5">
+        
+        <h8>¿Necesitas mas informacion?</h8>
+        <p>Bogotá : 3430111</p>
+        <p>Resto del país : 018000910270</p>
+      </div>
+      <div class="col-md-6">
+        <h8>Horario de atención: Lunes a Viernes 7:00 am a 7:00 pm - Sabados 8:00 am a 1:00 pm </h8>
+        <p>Todos los derechos reservados - 2006 / 2014</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
